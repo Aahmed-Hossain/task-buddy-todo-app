@@ -1,9 +1,8 @@
 import AllTask from "@/components/AllTask";
 
-
-export default function Home() {
+export default function AllTaskPage() {
   return (
-    <main className="">
+    <main className="bg-red-100">
     <AllTask></AllTask>
     </main>
   );
